@@ -18,7 +18,7 @@
 * Created by Xutong, 2014/09/15
 *
 */
-
+	
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -102,7 +102,7 @@ main()
             continue;
         }
         printf("%s - %s\n",p->cmd,p->desc);
-        if(p->handler&&simp_mul) 
+        if(p->handler) 
         { 
             p->handler();
         }
