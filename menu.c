@@ -30,7 +30,7 @@ int Help();
 #define DESC_LEN     1024
 #define CMD_NUM      10
 
-/* data struct and its operations*/
+/* data struct and its operations */
 
 typedef struct DataNode
 {
@@ -70,7 +70,7 @@ int ShowAllCmd(tDataNode *head)
 }
 
 
-/* menu program*/
+/* menu program */
 static tDataNode head[] =
 {
     {"help","this is help cmd!",Help,&head[1]}, 
@@ -93,12 +93,12 @@ main()
     while(1)
     {
         char cmd[CMD_MAX_LEN];
-        printf("Pleasse input a cmd number :");
+        printf("Pleasse input a cmd number:");
         scanf("%s",cmd);
         tDataNode *p = FindCmd(head,cmd);
         if(!p)
         {
-            printf("This is a wrong cmd!\n ");
+            printf("This is a wrong cmd!\n");
             continue;
         }
         printf("%s - %s\n",p->cmd,p->desc);
