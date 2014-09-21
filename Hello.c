@@ -1,14 +1,14 @@
 /***************************************************************************/
 /*                                                                         */
-/*  Copyright (C)sse.ustc.edu.cn,	2014-2015                          */
-/*  FILE NAME				:	menu.c                     */
-/*  PRINCIPAL AUTHOR			:	Xutong                     */
-/*  SUBSYSTEM NAME			:	menu                       */
-/*  MODULE NAME				:	menu                       */
-/*  LANGUAGE				:	C                          */
-/*  TARGET ENVIROMENT			:	ANY                        */
-/*  DATE OF FIRST RELEASE		:	2014/09/14                 */
-/*  DESCRIPTION				:	This is a menu program     */
+/*  Copyright (C)sse.ustc.edu.cn,	2014-2015                              */
+/*  FILE NAME				    :	menu.c                                 */
+/*  PRINCIPAL AUTHOR			:	Xutong                                 */
+/*  SUBSYSTEM NAME			    :	menu                                   */
+/*  MODULE NAME				    :	menu                                   */
+/*  LANGUAGE				    :	C                                      */
+/*  TARGET ENVIROMENT			:	ANY                                    */
+/*  DATE OF FIRST RELEASE		:	2014/09/14                             */
+/*  DESCRIPTION				    :	This is a menu program                 */
 /***************************************************************************/
 
 
